@@ -5,6 +5,7 @@ import bannerImage from '../../assets/circles-background-dark-tones_60389-166.av
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import MySkills from "../MySkills/MySkills";
+import MyProjects from "../MyProjects/MyProjects";
 
 const Home = () => {
     const backgroundStyle = {
@@ -25,6 +26,7 @@ const Home = () => {
            <div className="max-w-6xl pt-4 mx-auto">
            <About />
            <MySkills/>
+           <MyProjects/>
            <Contact/>
            <Footer/>
            </div>
