@@ -4,7 +4,7 @@ import project3 from '../../assets/Screenshot2.png';
 
 const MyProjects = () => {
     return (
-        <div>
+        <div id='project'>
             <h2 className="text-3xl font-semibold text-center">My Projects</h2>
             <div className='my-10 flex flex-col gap-7'>
                 {/* project1 */}
