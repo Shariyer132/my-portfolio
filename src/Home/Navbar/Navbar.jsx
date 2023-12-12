@@ -3,6 +3,7 @@ const Navbar = () => {
     const links = <>
     <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#about">About</a></li>
     <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#skill">My Skill</a></li>
+    <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#project">Projects</a></li>
     <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#contact">Contact</a></li>
     </>
     return (

@@ -19,7 +19,7 @@ const MyProjects = () => {
                 </div>
                 {/* project 2 */}
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src={project2} alt="Album" /></figure>
+                    <figure className='w-1/2'><img src={project2} alt="Album" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">The Seven find the best product</h2>
                         <div className="card-actions">
@@ -29,7 +29,7 @@ const MyProjects = () => {
                 </div>
                 {/* project 3 */}
                 <div className="card lg:card-side bg-base-100 shadow-xl">
-                    <figure><img src={project3} alt="Album" /></figure>
+                    <figure className='w-1/2'><img src={project3} alt="Album" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">SurveySuvvy express your opinion</h2>
                         <div className="card-actions">
