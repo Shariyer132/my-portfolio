@@ -2,6 +2,9 @@ import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
 import bannerImage from '../../assets/circles-background-dark-tones_60389-166.avif';
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
+import MySkills from "../MySkills/MySkills";
 
 const Home = () => {
     const backgroundStyle = {
@@ -14,13 +17,16 @@ const Home = () => {
     return (
         <div>
                 <div className="min-h-screen bg-fixed" style={backgroundStyle}>
-                    <div className="max-w-6xl pt-4 mx-auto">
+                    <div id="#" className="max-w-6xl pt-4 mx-auto">
                     <Navbar />
                     <Banner />
                     </div>
                 </div>
            <div className="max-w-6xl pt-4 mx-auto">
            <About />
+           <MySkills/>
+           <Contact/>
+           <Footer/>
            </div>
         </div>
     );

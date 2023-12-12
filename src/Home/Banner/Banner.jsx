@@ -1,3 +1,4 @@
+import pdf from '../../assets/Untitled document.pdf';
 
 const Banner = () => {
     return (
@@ -5,7 +6,8 @@ const Banner = () => {
             <p className="text-[#CF5366]">--- Intoducing</p>
             <h1 className="text-6xl py-3 font-bold">Hello
                 <br /> I'm Shariyer</h1>
-            <p>Since beginning my journey as a web designer nearly 5 years ago, I’ve done remote work for agencies, various marketplaces, and locally. </p>
+            <p className="max-w-2xl">Since beginning my journey as a web developer nearly 1 years ago, I’ve done full course of web development with Jhankar Mahbub. </p>
+            <a href={pdf} className='btn btn-error btn-outline my-10' download >Download Resume</a>
         </div>
 
     );

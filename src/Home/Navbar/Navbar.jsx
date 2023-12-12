@@ -2,7 +2,7 @@
 const Navbar = () => {
     const links = <>
     <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#about">About</a></li>
-    <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#services">Services</a></li>
+    <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#skill">My Skill</a></li>
     <li><a className="text-[#fff] text-lg cursor-pointer hover:text-[#FF2F00] font-semibold" href="#contact">Contact</a></li>
     </>
     return (
@@ -16,7 +16,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="logo"><a href="#" className="text-3xl font-semibold"><span className="text-[#FF2F00]">S</span>hariyer<span className="text-[#FF2F00]">.</span></a></div>
+                <div><a href="#" className="text-3xl font-semibold"><span className="text-[#FF2F00]">S</span>hariyer<span className="text-[#FF2F00]">.</span></a></div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
